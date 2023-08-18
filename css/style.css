@@ -1,0 +1,600 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.material-symbols-outlined {
+    color: #F41486;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* barra navegacion */
+nav{
+    background: #1E172F;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 10vw;
+    margin-left: -115px;
+}
+.links{
+    width: 37vw;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: center;
+    margin-right: -40px;
+}
+nav li{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#white{
+    color: #fff;
+}
+.links a{
+    text-decoration: none;
+    color: #7C7785;
+    font-size: 25px;
+}
+/* estilos del boton */
+.links input{
+    background: rgb(138,63,213);
+    background: linear-gradient(90deg, rgba(138,63,213,1) 0%, rgba(4,127,214,1) 100%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size:25px;
+    padding: 10px 20px;
+}
+/* informacion superior */
+.padreSup{
+    display: flex;
+    /* height: 82vh; */
+}
+/* estilos parte superior derecha */
+.supDere{
+    width: 49.5vw;
+    background: url("../images/hojasFondo.jpg");
+    background-size: 70vw;
+    background-position: -200px -115px;
+}
+.cell{
+    margin: 100px 0 30px 150px;
+    width: 16vw;
+}
+/* estilos parte superior izquierda */
+.supIzq{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 49.5vw;
+    background: #2E2550;
+}
+.infoIzq{
+    width: 30vw; 
+}
+.infoIzq h1{
+    color: #fff;
+    font-size: 100px;
+    width: 25vw;
+    justify-self: flex-start;
+}
+.infoIzq p{
+    color: #fff;
+    font-size: 23px;
+    margin: 40px 0;
+}
+.buttonIzq{
+    border: #544D6E 2px solid;
+    width: 22vw;
+    padding: 0;
+    border-radius: 7px;
+    display: flex;
+}
+.buttonIzq input{
+    font-size: 80%;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 5px;
+    width: 47%;
+}
+.buttonOne{
+    color: #F03E99;
+    padding: 15px 30px;
+}
+.buttonTwo{
+    background: transparent;
+    color: #fff;
+    border: #fff 1px solid;
+    padding: 15px 55px;
+}
+/* estilos de la parte central  */
+.center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #fff;
+    width: 99vw;
+}
+.center h2{
+    color: #F41486;
+    align-self: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.infoCenter{
+    display: flex;
+    justify-content: space-between;
+    width: 63vw;
+}
+.laptop{
+    width: 28vw;
+    margin-bottom: 50px;
+}
+.alpha{
+    width: 29vw;
+}
+.alpha h3{
+    color: #C34987;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.alpha p{
+    color:#5D5E5F;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.alpha h4{
+    color: #F41486;
+    font-size: 20px;
+}
+.alpha ul{
+    list-style:none;
+}
+.alpha li{
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+/* estilos de la parte inferior */
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background: #1E172F;
+}
+
+.inferior{
+    background: #1E172F;
+}
+.infeInfo{
+   display: flex;
+   flex-flow: column wrap;
+   align-content: center;
+   align-items: center;
+   text-align: center;
+}
+.infeInfo h2{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 25px;
+}
+.infeInfo p{
+    color: #fff;
+    width: 50vw;
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+   justify-content: space-evenly;
+   width: 60vw;
+}
+.planes{
+    background: #fff;
+    width: 17vw;
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.planes h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#lite{
+    color: #F41486;
+}
+.planes p{
+    text-align: center;
+}
+.planes h2{
+    background: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 35px;
+}
+.planes li{
+    list-style: none;
+    margin: 5px 0;
+    display: flex;
+}
+.infoPlanes{
+    margin: 30px 0;
+    width: 14vw;
+}
+.time{
+    font-size: 17px;
+    margin-left: 5px;
+}
+#year{
+    width: 4vw;
+}
+.buttonCards{
+    background:#F5F5F5 ;
+    width: 100%;
+    text-align: center;
+}
+.buttonCards input{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background:#1E172F ;
+}
+#botonU{
+    background: rgb(235,103,171);
+    background: linear-gradient(90deg, rgba(235,103,171,1) 0%, rgba(244,21,134,1) 100%);
+}
+.star-rosa{
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 145, 'opsz' 25;   
+    padding-right: 20px;
+}
+.star-black{
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 145, 'opsz' 25;   
+    padding-right: 20px;
+    color: #3F3F3F;
+}
+
+/* estilos del footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+}
+footer li{
+    list-style: none;
+}
+footer img{
+    width: 1.3vw;
+}
+footer a{
+    color: #F41486;
+}
+
+@media (max-width:1279px){
+    nav{
+        width: auto;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 30px;
+        width: 17vw;
+    }
+    .links{
+        width: 70vw;
+        margin: 0;
+    }
+    .infoIzq h1 {
+        font-size: 75px;
+    }
+    .infoIzq p{
+        font-size: 20px;
+        width: 39vw;
+    }
+    .buttonIzq{
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+    }
+    .buttonIzq input{
+        width: 47%;
+    }
+    .buttonOne{
+        padding: 12px 15px;
+    }
+    .buttonTwo{
+        padding: 12px 40px;
+    }
+    .supDere {
+        width: 50.5vw;
+        background-size: 96vw;
+        background-position: -264px -25px;
+    }
+    .cell{
+        width: 22vw;
+        margin-left: 100px;
+    }
+    .infoCenter{
+        width: 85vw;
+    }
+    .laptop{
+        width: 43vw;
+        height: 35vh;
+        margin-top: 30px;
+    }
+    .alpha{
+        width: 40vw;
+    }
+    .alpha h3{
+        font-size: 34px;
+    }
+    .alpha p{
+        width: 46vw;
+    }
+    
+    .infeInfo p{
+        width: 77vw;
+    }
+    .cards{
+        width: 99vw;
+    }
+    .planes{
+        width: 30vw;
+    }
+    .infoPlanes{
+        width: 27vw;
+    }
+    #year{
+        width: 9vw;
+    }
+
+}
+
+@media(max-width:920px){
+    .links a{
+        font-size: 20px;
+    }
+    .links input{
+        font-size: 17px;
+    }
+    .infoIzq h1{
+        font-size: 50px;
+    }
+    .infoIzq p{
+        font-size: 17px;
+    }
+    .buttonIzq{
+        flex-direction: column;
+    }
+    .buttonIzq input{
+        width: 95%;
+    }
+    .center h2{
+        font-size: 50px;
+    }
+    .laptop {
+        width: 43vw;
+        height: 30vh;
+    }
+    .alpha h3{
+        font-size: 30px;
+    }
+    .alpha p{
+        font-size: 16px;
+    }
+    .alpha h4{
+        font-size: 17px;
+    }
+    .alpha li{
+        font-size: 17px;
+    }
+    footer ul{
+        width: 23vw;
+    }
+    footer img{
+        width: 3vw;
+    }
+    footer p{
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width:768px){
+    nav{
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .logo{
+        display: flex;
+        width: 35vw;
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    .links li{
+        margin-bottom: 20px;
+    }
+    .supDere{
+        background: none;
+        width: 0;
+        display: none;
+    }
+    .cell{
+        width: 0vw;
+        display: none;
+    }
+    .supIzq{
+        width: 100%;
+    }
+    .infoIzq h1 {
+        font-size: 70px;
+        width: 100%;
+    }
+    .infoIzq{
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .infoIzq p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .buttonIzq{
+        width: 75%;
+        flex-direction: row;
+    }
+
+    .center{
+        width: 100vw;
+    }
+    .infoCenter{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .center h2{
+        margin-bottom: 40px;
+    }
+    .laptop{
+        margin-top:0;
+        width: 69vw;
+        height: 24vh;
+    }
+    .alpha{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .alpha ul{
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .alpha h3{
+        font-size: 40px;
+    }
+    .alpha p{
+        font-size: 20px;
+        width: 95%;
+    }
+    .alpha h4{
+        width: 69%;
+        font-size: 20px;
+    }
+    .alpha li{
+        font-size: 20px;
+        
+    }
+    
+    .infeInfo h2{
+        font-size: 50px;
+    }
+    .infeInfo p{
+        width: 99%;
+    }
+
+    .cards{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .planes{
+        width: 65vw;
+    }
+    .infoPlanes{
+        width: 80%;
+    }
+    #year{
+        width: 15vw;
+    }
+
+
+    footer p{
+        font-size: 15px;
+    }
+    footer img{
+        width: 4vw;
+    }
+}
+
+@media (max-width:480px){
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .infoIzq h1{
+        font-size: 50px;
+    }
+    .buttonIzq {
+        width: 90%;
+    }
+    .center h2{
+        font-size: 40px;
+    }
+    .laptop{
+        width: 85vw;
+    }
+    .alpha h3{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .alpha p{
+        font-size: 18px;
+    }
+    .alpha li{
+        font-size: 18px;
+    }
+
+    .infeInfo h2{
+        font-size: 45px;
+    }
+    .infeInfo p{
+        font-size: 18px;
+    }
+
+    .planes{
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    #year{
+        width: 20vw;
+    }
+
+    footer{
+        width: 99vw;
+    }
+    footer img{
+        width: 5vw;
+    }
+    footer ul{
+        width: 45vw;
+    }
+    footer p{
+        font-size: 18px;
+    }
+}
